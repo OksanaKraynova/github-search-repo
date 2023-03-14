@@ -1,0 +1,11 @@
+.list{
+padding-top: 30px;
+display: flex;
+flex-direction: column;
+max-width: 768px;
+margin: 0 auto;
+.repo+ .repo{
+    margin-top: 20px;
+}
+}
+

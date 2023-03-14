@@ -1,0 +1,61 @@
+.repo {
+    background-color: #121212;
+    padding: 20px 30px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    @media(max-width: 768px){
+        padding: 14px 20px;
+    }
+    &:hover{
+        box-shadow: 0px 0px 16px 0px rgba(236, 236, 236, 0.2);
+        background-color: #1d1d1d;
+    }
+    &__autor{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+    &__avatar{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        @media(max-width: 768px){
+            width: 30px;
+            height: 30px;
+        }
+        img{
+            max-width: 100%;
+        }
+    }
+
+    &__name {
+        font-size: 18px;
+        display: inline-block;
+        font-weight: 700;
+        color: #755D9A;
+    }
+    &__row{
+        color: #828080;
+        margin-top: 14px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        @media(max-width: 768px){
+            margin-top: 10px;
+            font-size: 12px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    }
+
+    &__title{
+        display: inline-block;
+       
+    }
+
+    &__text {
+        margin-top: 10px;
+        line-height: 1.3;
+    }
+}
